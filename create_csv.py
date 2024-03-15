@@ -14,7 +14,7 @@ images_c = os.listdir('satellite_data/3')
 n = random.randint(0, 1)
 
 for i in range(len(images_a)):
-    if n == 0:
+    if n > 0.5:
         # use a and b
         names1.append('satellite_data/1/' + images_a[i])
         names2.append('satellite_data/2/' + images_b[i])
